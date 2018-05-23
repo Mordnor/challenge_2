@@ -5,6 +5,7 @@ Gris très clair : #A6A6A6
 ---------------------------------------------------*/
 
 body{
+
     background-image: url("https://raw.githubusercontent.com/codincamp/challenge_2/master/images/bg.png");
 }
 
@@ -13,6 +14,7 @@ header, footer, main {
     width: 994px;
     margin: auto;
     padding: 0 47px 0 47px;
+    box-sizing: border-box;
 }
 
 /*-------------------HEADER------------------------*/
@@ -29,20 +31,27 @@ h1 + p {
 }
 /*-------------------Nav------------------------*/
 nav li {
+    font-size: 17px;
     display: inline-block;
-    line-height: 5%;
-
+    line-height: 3.8;
+    padding-right: 3%;
 }
 
 .submenu {
 
     display: none;
 }
-nav {
-    background-color: #A6A6A6;
-    border: solid 1px #606060;
-    height: 59px;
+ nav ul {
+     text-align: center;
+ }
 
+nav {
+    background-color: #fafafa;
+    border: solid 1px #f0f0f0;
+    height: 59px;
+    margin-bottom: 25px;
+    border-left: none;
+    border-right: none;
 
 }
 /*-------------------Fin Nav------------------------*/
@@ -62,6 +71,38 @@ img {
 
 /*----------------------Main-----------------------*/
 
+h2 {
+    font-weight:300;
+    color: #505050;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 22px;
+}
+
+h2 + p {
+    text-align: center;
+    font-size: 17px;
+    color: #A6A6A6;
+    padding-bottom: 30px;
+}
+
+p {
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #606060;
+}
+
+hr {
+    width: 900px;
+    height: 40px;
+    border: solid 1px #f0f0f0;
+    background-color: #fafafa;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+
+}
 /*--------------------Fin Main----------------------*/
 
 
