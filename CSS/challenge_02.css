@@ -12,17 +12,39 @@ header, footer, main {
     background-color: white;
     width: 994px;
     margin: auto;
-    padding: 0 47px;
+    padding: 0 47px 0 47px;
 }
 
 /*-------------------HEADER------------------------*/
+h1 {
+    font-size: 52px;
+    color: #505050;
+    padding: 50px 0 10px 0;
+}
 
-
-
+h1 + p {
+    color: #606060;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
 /*-------------------Nav------------------------*/
+nav li {
+    display: inline-block;
+    line-height: 5%;
+
+}
+
+.submenu {
+
+    display: none;
+}
+nav {
+    background-color: #A6A6A6;
+    border: solid 1px #606060;
+    height: 59px;
 
 
-
+}
 /*-------------------Fin Nav------------------------*/
 
 img {
