@@ -107,6 +107,29 @@ hr {
 
 
 /*-------------------FOOTER------------------------*/
+footer > h3 {
+    padding-top: 3%;
+
+    text-align: center;
+    font-size: 17px;
+    color: rgb(158, 158, 158);
+}
+footer h3 {
+    padding-bottom: 5%;
+}
+article {
+    display: inline-block;
+    width: 24%;
+    height: 235px;
+    padding-top: 3%;
+    
+}
+footer a {
+    text-decoration: none;
+    color: #606060;
+    line-height: 1.5;
+
+}
 
 
 /*-------------------Fin FOOTER------------------------*/
